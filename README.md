@@ -9,7 +9,7 @@ Calculate the Qibla direction (bearing) and distance to the Kaaba from any locat
 ## Installation
 
 ```bash
-npm install qibla-direction
+npm install qibla-calc
 ```
 
 ## Quick Start
