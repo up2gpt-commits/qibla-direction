@@ -54,7 +54,7 @@ Calculate the great-circle distance from a given location to the Kaaba.
 Convert a bearing to a cardinal/intercardinal direction.
 
 - `bearing` — degrees from true North (0–360)
-- Returns `{ ar: string, en: string }` with Arabic and English direction names
+- Returns `{ ar: string, en: string, tr: string, id: string }` with Arabic, English, Turkish, and Indonesian direction names
 
 ### `KAABA_COORDS`
 

@@ -58,10 +58,15 @@ exports.CITIES = [
     // Sudan
     { lat: 15.5007, lng: 32.5599, nameEn: 'Khartoum', nameAr: 'الخرطوم', country: 'Sudan' },
     // Turkey
-    { lat: 41.0082, lng: 28.9784, nameEn: 'Istanbul', nameAr: 'إسطنبول', country: 'Turkey' },
-    { lat: 39.9334, lng: 32.8597, nameEn: 'Ankara', nameAr: 'أنقرة', country: 'Turkey' },
-    { lat: 38.4237, lng: 27.1428, nameEn: 'Izmir', nameAr: 'إزمير', country: 'Turkey' },
-    { lat: 36.8969, lng: 30.7133, nameEn: 'Antalya', nameAr: 'أنطاليا', country: 'Turkey' },
+    { lat: 41.0082, lng: 28.9784, nameEn: 'Istanbul', nameAr: 'إسطنبول', nameTr: 'İstanbul', country: 'Turkey' },
+    { lat: 39.9334, lng: 32.8597, nameEn: 'Ankara', nameAr: 'أنقرة', nameTr: 'Ankara', country: 'Turkey' },
+    { lat: 38.4237, lng: 27.1428, nameEn: 'Izmir', nameAr: 'إزمير', nameTr: 'İzmir', country: 'Turkey' },
+    { lat: 36.8969, lng: 30.7133, nameEn: 'Antalya', nameAr: 'أنطاليا', nameTr: 'Antalya', country: 'Turkey' },
+    { lat: 37.8714, lng: 32.4846, nameEn: 'Konya', nameAr: 'قونية', nameTr: 'Konya', country: 'Turkey' },
+    { lat: 37.0034, lng: 35.3264, nameEn: 'Adana', nameAr: 'أضنة', nameTr: 'Adana', country: 'Turkey' },
+    { lat: 41.0216, lng: 39.5707, nameEn: 'Trabzon', nameAr: 'طرابزون', nameTr: 'Trabzon', country: 'Turkey' },
+    { lat: 38.7223, lng: 35.4875, nameEn: 'Kayseri', nameAr: 'قيصرية', nameTr: 'Kayseri', country: 'Turkey' },
+    { lat: 40.1828, lng: 29.0671, nameEn: 'Bursa', nameAr: 'بورصة', nameTr: 'Bursa', country: 'Turkey' },
     // Iran
     { lat: 35.6892, lng: 51.3890, nameEn: 'Tehran', nameAr: 'طهران', country: 'Iran' },
     { lat: 32.6546, lng: 51.6680, nameEn: 'Isfahan', nameAr: 'أصفهان', country: 'Iran' },
@@ -80,11 +85,18 @@ exports.CITIES = [
     // Bangladesh
     { lat: 23.8103, lng: 90.4125, nameEn: 'Dhaka', nameAr: 'دكا', country: 'Bangladesh' },
     // Malaysia
-    { lat: 3.1390, lng: 101.6869, nameEn: 'Kuala Lumpur', nameAr: 'كوالالمبور', country: 'Malaysia' },
+    { lat: 3.1390, lng: 101.6869, nameEn: 'Kuala Lumpur', nameAr: 'كوالالمبور', nameId: 'Kuala Lumpur', country: 'Malaysia' },
+    { lat: 3.0738, lng: 101.5183, nameEn: 'Putrajaya', nameAr: 'بوتراجاي', nameId: 'Putrajaya', country: 'Malaysia' },
     // Indonesia
-    { lat: -6.2088, lng: 106.8456, nameEn: 'Jakarta', nameAr: 'جاكرتا', country: 'Indonesia' },
-    { lat: -7.7956, lng: 110.3695, nameEn: 'Yogyakarta', nameAr: 'يوجياكارتا', country: 'Indonesia' },
-    { lat: -8.3405, lng: 115.0920, nameEn: 'Bali (Denpasar)', nameAr: 'دنباسار (بالي)', country: 'Indonesia' },
+    { lat: -6.2088, lng: 106.8456, nameEn: 'Jakarta', nameAr: 'جاكرتا', nameId: 'Jakarta', country: 'Indonesia' },
+    { lat: -7.7956, lng: 110.3695, nameEn: 'Yogyakarta', nameAr: 'يوجياكارتا', nameId: 'Yogyakarta', country: 'Indonesia' },
+    { lat: -8.3405, lng: 115.0920, nameEn: 'Bali (Denpasar)', nameAr: 'دنباسار (بالي)', nameId: 'Denpasar, Bali', country: 'Indonesia' },
+    { lat: -7.2575, lng: 112.7521, nameEn: 'Surabaya', nameAr: 'سورابايا', nameId: 'Surabaya', country: 'Indonesia' },
+    { lat: -6.9147, lng: 107.6098, nameEn: 'Bandung', nameAr: 'باندونغ', nameId: 'Bandung', country: 'Indonesia' },
+    { lat: 3.5952, lng: 98.6722, nameEn: 'Medan', nameAr: 'ميدان', nameId: 'Medan', country: 'Indonesia' },
+    { lat: -5.1477, lng: 119.4327, nameEn: 'Makassar', nameAr: 'ماكاسار', nameId: 'Makassar', country: 'Indonesia' },
+    { lat: -6.1180, lng: 106.1546, nameEn: 'Serang', nameAr: 'سيرانغ', nameId: 'Serang', country: 'Indonesia' },
+    { lat: -0.5022, lng: 117.1526, nameEn: 'Samarinda', nameAr: 'ساماريندا', nameId: 'Samarinda', country: 'Indonesia' },
     // Nigeria
     { lat: 9.0765, lng: 7.3986, nameEn: 'Abuja', nameAr: 'أبوجا', country: 'Nigeria' },
     { lat: 6.5244, lng: 3.3792, nameEn: 'Lagos', nameAr: 'لاغوس', country: 'Nigeria' },

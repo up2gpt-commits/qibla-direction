@@ -31,7 +31,7 @@ export declare function calcDistance(lat: number, lng: number): number;
  * Convert a bearing to a cardinal or intercardinal direction name.
  *
  * @param bearing - Degrees from true North (0–360)
- * @returns Object with Arabic (`ar`) and English (`en`) direction names
+ * @returns Object with Arabic (`ar`), English (`en`), Turkish (`tr`), and Indonesian (`id`) direction names
  */
 export declare function bearingToDirection(bearing: number): Direction;
 //# sourceMappingURL=index.d.ts.map

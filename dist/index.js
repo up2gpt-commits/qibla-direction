@@ -67,23 +67,23 @@ function calcDistance(lat, lng) {
  * Convert a bearing to a cardinal or intercardinal direction name.
  *
  * @param bearing - Degrees from true North (0–360)
- * @returns Object with Arabic (`ar`) and English (`en`) direction names
+ * @returns Object with Arabic (`ar`), English (`en`), Turkish (`tr`), and Indonesian (`id`) direction names
  */
 function bearingToDirection(bearing) {
     if (bearing >= 337.5 || bearing < 22.5)
-        return { ar: 'شمال', en: 'North' };
+        return { ar: 'شمال', en: 'North', tr: 'Kuzey', id: 'Utara' };
     if (bearing >= 22.5 && bearing < 67.5)
-        return { ar: 'شمال شرق', en: 'Northeast' };
+        return { ar: 'شمال شرق', en: 'Northeast', tr: 'Kuzeydoğu', id: 'Timur Laut' };
     if (bearing >= 67.5 && bearing < 112.5)
-        return { ar: 'شرق', en: 'East' };
+        return { ar: 'شرق', en: 'East', tr: 'Doğu', id: 'Timur' };
     if (bearing >= 112.5 && bearing < 157.5)
-        return { ar: 'جنوب شرق', en: 'Southeast' };
+        return { ar: 'جنوب شرق', en: 'Southeast', tr: 'Güneydoğu', id: 'Tenggara' };
     if (bearing >= 157.5 && bearing < 202.5)
-        return { ar: 'جنوب', en: 'South' };
+        return { ar: 'جنوب', en: 'South', tr: 'Güney', id: 'Selatan' };
     if (bearing >= 202.5 && bearing < 247.5)
-        return { ar: 'جنوب غرب', en: 'Southwest' };
+        return { ar: 'جنوب غرب', en: 'Southwest', tr: 'Güneybatı', id: 'Barat Daya' };
     if (bearing >= 247.5 && bearing < 292.5)
-        return { ar: 'غرب', en: 'West' };
-    return { ar: 'شمال غرب', en: 'Northwest' };
+        return { ar: 'غرب', en: 'West', tr: 'Batı', id: 'Barat' };
+    return { ar: 'شمال غرب', en: 'Northwest', tr: 'Kuzeybatı', id: 'Barat Laut' };
 }
 //# sourceMappingURL=index.js.map
